@@ -1,0 +1,52 @@
+header {
+	border: 1px solid black;
+}
+
+header ul li {
+	list-style-type: none;
+	padding: .5em;
+}
+
+.disabled {
+	color: grey;
+}
+
+li a {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+div.red + h4 {
+	background-color: red;
+}
+
+div.blue + h4 {
+	background-color: blue;
+}
+
+div.grandparent > h4 {
+	border: 1px dotted;
+	border-radius: 90px;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input {
+	height: 25px;
+}
+
+
